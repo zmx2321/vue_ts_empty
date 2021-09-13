@@ -44,7 +44,7 @@ export default class Login extends Vue {
     }
 
     // 提交表单
-    submitForm(formName) {
+    /* submitForm(formName) {
         this.$refs[formName].validate(valid => {
             if (valid) {
                 // 登陆状态记录
@@ -65,7 +65,7 @@ export default class Login extends Vue {
                 this.$message.error("表单填写错误");
             }
         });
-    }
+    } */
 }
 </script>
 

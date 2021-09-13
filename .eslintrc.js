@@ -12,8 +12,8 @@ module.exports = {
     ecmaVersion: 2020
   },
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    // 'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    // 'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     "@typescript-eslint/no-inferrable-types": "off", // 关闭类型推断
     "@typescript-eslint/explicit-module-boundary-types": "off"
   }
